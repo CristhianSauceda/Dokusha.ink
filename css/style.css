@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400;600&display=swap');
+:root{ 
+	--color-amarillo: #FFBE00;
+	--color-rojo: #A20000;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+a h2{
+	transition-duration: 0.1s;
+  	text-decoration: none !important;
+}
+
+a h2:hover{
+	color: var(--color-rojo);
+	transition-duration: 0.1s;
+}
+
+body h4{
+	font-weight:300;
+	opacity: 80%;
+}
+.container h2{
+	padding-top: 60px;
+	font-family: 'Anton', sans-serif;
+	font-weight:normal;
+	font-size: 45px;
+	padding-bottom: 10px;
+	text-transform: capitalize;
+	text-decoration: none!important;
+}
+
+#ofertas1{
+	background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(194,194,194,1) 57%, rgba(255,255,255,1) 100%);
+}
+
+header{
+	background: rgb(121,0,0);
+    background: linear-gradient(0deg, rgba(121,0,0,1) 0%, rgba(162,0,0,1) 100%);
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#he h6{
+	font-size: 15px;
+}
+
+#he9 img{
+	margin-top: 15px;
+	width: 40%;
+	height: 50%;
+}
+
+#he10 img{
+	margin-top: 20px;
+	width: 40%;
+	height: 50%;
+}
+
+#he0{
+	margin: 20px;
+}
+
+#anuncio{
+	background-image: url("../img/bg-anuncio.jpg");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+#anuncio h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+	font-weight: 900;
+	text-align:center;
+	padding-bottom: 70px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+#productos h3{
+	padding-top: 20px;
+}
+
+#productos h4{
+	font-weight:300;
+}
+
+#fig1 img{
+	border: solid 0px var(--color amarillo);
+	transition-duration: 0.1s;
+}
+#fig1 img:hover{
+	opacity: 95%;
+	border: solid 5px var(--color-amarillo);
+	transition-duration: 0.1s;
+	box-shadow: 0px 5px 15px #B3B3B3;
+}
+
+#fig2 img{
+	border: solid 0px var(--color amarillo);
+	transition-duration: 0.1s;
+}
+
+#fig2 img:hover{
+	opacity: 95%;
+	border: solid 5px var(--color-amarillo);
+	transition-duration: 0.04s;
+	box-shadow: 0px 5px 15px #B3B3B3;
+}
+
+#fig3 img:hover{
+	opacity: 95%;
+	border: solid 5px var(--color-amarillo);
+	transition-duration: 0.1s;
+	box-shadow: 0px 5px 15px #B3B3B3;
+}
+
+#fig4 img{
+	border: solid 0px var(--color amarillo);
+	transition-duration: 0.1s;
+}
+
+#fig4 img:hover{
+	opacity: 95%;
+	border: solid 5px var(--color-amarillo);
+	transition-duration: 0.1s;
+	box-shadow: 0px 5px 15px #B3B3B3;
+}
+#banner1{
+	background: rgb(230,140,8);
+    background: linear-gradient(0deg, rgba(230,140,8,1) 0%, rgba(255,205,16,1) 100%);
+	margin-top: 30px;
+	padding-bottom: 60px;
+}
+
+footer{
+	background-color: #A20000;
+
+}
+#sec1 img{
+	border: solid 10px transparent;
+	transition-duration: 0.1s;
+}
+
+#banner1 img:hover{
+	opacity: 95%;
+	border: solid 10px var(--color-rojo);
+	transition-duration: 0.1s;
+	box-shadow: 0px 5px 15px #F27800;
+}
+
+#sec2 img{
+	width: 52%;
+	height: 48%;
+	margin-bottom: 30px;
+	transition-duration: 0.1s;
+	border: solid 0px var(--color-rojo);
+
+}
+
+footer{
+	background: rgb(121,0,0);
+    background: linear-gradient(0deg, rgba(121,0,0,1) 0%, rgba(162,0,0,1) 100%);
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 50px 0px;
+	color: #fff;
+	font-weight: 700;
+}
+
+footer img{
+	width: 10%;
+	
+}
+
+
+footer h5{
+	font-size: 15px;
+	padding-top: 15px;
+}
+
+
+footer h6{
+	padding-top: 30px;
+	font-size: 14px;
+}
+
+#f2:hover{
+	color: var(--color-amarillo);
+	font-weight: bold;
+}
+
+#f3:hover{
+	color: var(--color-amarillo);
+}
+#f4:hover{
+	color: var(--color-amarillo);
+}
+
+#f5:hover{
+	color: var(--color-amarillo);
+}
+
+.navbar-brand img{
+	margin-left: 2%;
+}
+
+.navbar-nav .las{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 40px;
+	color: var(--color-amarillo);
+}
+
+.navbar-nav .lar{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 40px;
+	color: var(--color-amarillo);
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.45);
+	padding: 8% 0;
+}
+
+#ofertas1 img,
+h4{
+	width: 95%;
+	opacity: 80%;
+	transition-duration: 0.05s;
+	border: solid 0px var(--color-amarillo);
+}
+
+#ofertas1 img:hover{
+	opacity: 100%;
+	transition-duration: 0.09s;
+	border: solid 5px var(--color-amarillo);
+	box-shadow: 0px 5px 15px #B3B3B3;
+	color: var(--color-amarillo);
+}
+#ofertas1 h4{
+	padding: 0% 0% 50% 0%;
+}
+
+#ofertas1{
+	background-image: url("../img/prueba2.jpg");
+	background-position: center;
+	background-size: auto;
+}
+
+#enlaces a{
+	font-size: 20px;
+	letter-spacing: 1rem;
+	text-decoration: none;
+	transition-duration: 0.1s;
+	font-weight: 200;
+}
+#enlaces:hover{
+	text-align: center;
+}
+#enlaces{
+	text-align: center;
+}
+
+#enlaces a:hover{
+	font-size: 20px;
+	letter-spacing: 1rem;
+	color: var(--color-rojo);
+	font-weight: 900; 
+	transition-duration: 0.1s;
+	margin:5px;
+}
+
+#recomendaciones{
+  background-color: #D8D8D8;
+	margin: 50px 0px;
+}

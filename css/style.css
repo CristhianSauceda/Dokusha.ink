@@ -3,11 +3,30 @@
 	--color-amarillo: #FFBE00;
 	--color-rojo: #A20000;
 }
-
+html{
+	scroll-behavior: smooth;
+}
+header{
+	position:fixed relative!important;
+}
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	color: #000000;
+	background-image: url("../img/fff.gif");
+	background-position: center;
+	background-size: cover;
+}
+
+#nav1{
+	
+	background-color: #FFD600!important;
+}
+	
+body img{
+	border-radius: 5%;
+	opacity: 85;
+	transition-duration: 0.5s;
 }
 
 a h2{
@@ -17,7 +36,15 @@ a h2{
 
 a h2:hover{
 	color: var(--color-rojo);
-	transition-duration: 0.1s;
+	transition-all: 0.1s;
+}
+
+#anuncio img{
+	width:100%;
+}
+
+#fotosoferta1 img{
+	width: 100%;
 }
 
 body h4{
@@ -32,19 +59,15 @@ body h4{
 	padding-bottom: 10px;
 	text-transform: capitalize;
 	text-decoration: none!important;
-}
-
-#ofertas1{
-	background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(194,194,194,1) 57%, rgba(255,255,255,1) 100%);
+	color: 000 !important;
 }
 
 header{
-	background: rgb(121,0,0);
-    background: linear-gradient(0deg, rgba(121,0,0,1) 0%, rgba(162,0,0,1) 100%);
+	background-color: var(--color-rojo);
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 1%;
 	padding-bottom: 1%;
+	box-shadow: 0px 5px 15px #B3B3B3;
 }
 
 #he h6{
@@ -68,18 +91,16 @@ header{
 }
 
 #anuncio{
-	background-image: url("../img/bg-anuncio.jpg");
-	background-size: cover;
-	background-position: center;
 	color: #fff;
 }
+
+
 
 #anuncio h1{
 	font-family: 'Anton', sans-serif;
 	font-size: 60px;
 	font-weight: 900;
 	text-align:center;
-	padding-bottom: 70px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
@@ -138,6 +159,19 @@ header{
     background: linear-gradient(0deg, rgba(230,140,8,1) 0%, rgba(255,205,16,1) 100%);
 	margin-top: 30px;
 	padding-bottom: 60px;
+}
+
+.btn-dark{
+	background-color: var(--color-rojo);
+	border: none;
+	text-transform: uppercase;
+}
+
+.btn-dark:hover{
+	background-color: var(--color-amarillo);
+	border: none;
+	color: #000;
+	text-transform: uppercase;
 }
 
 footer{
@@ -252,12 +286,6 @@ h4{
 	padding: 0% 0% 50% 0%;
 }
 
-#ofertas1{
-	background-image: url("../img/prueba2.jpg");
-	background-position: center;
-	background-size: auto;
-}
-
 #enlaces a{
 	font-size: 20px;
 	letter-spacing: 1rem;
@@ -284,4 +312,61 @@ h4{
 #recomendaciones{
   background-color: #D8D8D8;
 	margin: 50px 0px;
+}
+
+.carousel-inner img{
+	opacity:85%;
+	transition-duration: 0.5s;
+	width: 100%;
+	border: solid 10px transparent;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+
+.carousel-inner img:hover{
+	opacity:100%;
+	transition-duration: 0.5s;
+	width: 100%;
+	border: solid 10px var(--color-amarillo);
+	padding: 5px;
+	border-radius: 30px;
+}
+
+
+#novedades img,
+h4{
+	width: 95%;
+	opacity: 80%;
+	transition-duration: 0.05s;
+	border: solid 0px var(--color-amarillo);
+}
+
+#novedades img:hover{
+	opacity: 100%;
+	transition-duration: 0.09s;
+	border: solid 5px var(--color-amarillo);
+	box-shadow: 0px 5px 15px #B3B3B3;
+	color: var(--color-amarillo);
+}
+
+#novedades h4{
+	padding: 0% 0% 50% 0%;
+}
+
+p{
+	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 15px;
+	padding-bottom: 10px;
+	text-decoration: none!important;
+}
+
+.user img{
+	width: 100%;
+}
+
+.container-fluid{
+	width:100%;
 }

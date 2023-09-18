@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home Page - Dokusha.ink</title>
+<title>Carrito</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/bootstrap-custom.css">
 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
@@ -58,39 +58,10 @@
 		</div>
 	</header>
 	
-	<section id="anuncio">
-			<div class="container">
-				<div id="carousel" class="carousel carousel-dark slide">
- 					 <div class="carousel-inner">
-						 
-						<div class="carousel-item active">
-						  <a href="ofertas.html"><img src="img/bg-anuncio.jpg" class="d-block w-100 img-fluid" alt="slide1"></a>
-						</div>
-						 
-						<div class="carousel-item">
-						  <img src="img/bg-anuncio3.jpg" class="d-block w-100 img-fluid" alt="slide2">
-						</div>
-						 
-						<div class="carousel-item">
-						  <img src="img/bg-anuncio2.jpg" class="d-block w-100 img-fluid" alt="slide3">
-						</div>
-						 
-  					</div>
-					  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Previous</span>
-					  </button>
-					  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Next</span>
-					  </button>
-					</div>
-			</div>
-		</section>
 	
-	<section id="productos">
+	<section id="carrito">
 		<div class="container">
-			<div><h2>Nuevos Productos</h2></div>
+			<div><h2>Carrito</h2></div>
 			
 			<div class="row mt-5">
 				<article id="fig1" class="col-lg-3 col-sm-12 col-6">
@@ -98,52 +69,33 @@
 						<img src="img/fig-productos-aki.jpg" alt="figura"  class="img-fluid d-block m-auto"></a>
 					<h3>Aki (figura)</h3>
 					<h4>L 1800</h4>
+					<a class="link" href="carrito-vacio.html"><i class="las la-trash"></i></a>
+					<input class="input" type="number" name="amount" id="amount" placeholder="1">
 				</article>
-				
-				<article id="fig2" class="col-lg-3 col-sm-12 col-6">
-					<img src="img/fig-productos-kazuma.jpg" alt="figura"  class="img-fluid">
-					
-					<h3>Kazuma (figura)</h3>
-					<h4>L 1200</h4>
-				</article>
-	
-				<article id="fig3" class="col-lg-3 col-sm-12 col-6">
-					<img src="img/fig-productos-l.jpg" alt="figura" class="img-fluid">
-					<h3>L (figura)</h3>
-					<h4>L 1800</h4>
-				</article>
-				
-				<article id="fig4" class="col-lg-3 col-sm-12 col-6">
-					<img src="img/fig-productos-light.jpg" alt="figura" class="img-fluid">
-					<h3>Light (figura)</h3>
-					<h4>L 1200</h4>
-				</article>
-			</div>
-		</div>
-	
-	</section>
-	
-	
-	<section id="banner1">
-		<div class="container">
-			<h2>Destacados</h2>
 			
-			<div class="row">
-				<article id="sec1" class="col-lg-6 col-sm-12 col-12">
-					<img src="img/destacados-box.jpg" alt="box"  class="img-fluid">
+				<hr>
+				<article>
+					<h3>Total:</h3><h4><bold>L 1800</bold></h4>
 				</article>
 				
-				<article id="sec2" class="col-lg-6 col-sm-12 col-12 text-center">
-					
-					<img src="img/destacados-20 century.jpg" alt="century"  class="img-fluid" id="cen">
-					
-					<img src="img/destacados-guts.jpg" alt="guts"  class="img-fluid" id="guts">
-						
-				</article>
+				<div class="row">
+					<div class="row mt-4">
+						<article class="col-lg-6">
+							<a href="index.html"><button id="boton" type="submit"  class="btn btn-dark w-50">Procesar</button></a>
+						</article>
+					</div>
+				</div>
 			</div>
 		</div>
 	
 	</section>
+	
+	
+	
+	
+	
+	
+	
 	
 
 	<footer>
@@ -158,7 +110,7 @@
 		</article>
 		
 		<article id="f3" class="col-lg-2 col-sm-12 col-12">
-			<a href="#"><h5>Términos de servicio</h5></a>
+			<a href="terminos-de-servicio.html"><h5>Términos de servicio</h5></a>
 		</article>
 		
 		<article id="f4" class="col-lg-2 col-sm-12 col-12">
@@ -166,7 +118,7 @@
 		</article>
 		
 		<article id="f5" class="col-lg-2 col-sm-12 col-12">
-			<a href="#"><h5>Política de envío</h5></a>
+			<a href="politica-de-envio.html"><h5>Política de envío</h5></a>
 		</article>
 		
 		<h6>2023 DOKUSHA.INK</h6>

@@ -39,14 +39,6 @@ a h2:hover{
 	transition-all: 0.1s;
 }
 
-#anuncio img{
-	width:100%;
-}
-
-#fotosoferta1 img{
-	width: 100%;
-}
-
 body h4{
 	font-weight:300;
 	opacity: 80%;
@@ -363,10 +355,11 @@ p{
 	text-decoration: none!important;
 }
 
-.user img{
-	width: 100%;
+.las {
+	font-size: 28px;
+	text-align: left;
 }
 
-.container-fluid{
-	width:100%;
+.display{
+	opacity: 0;
 }

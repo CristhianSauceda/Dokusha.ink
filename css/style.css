@@ -18,6 +18,8 @@ body{
 	background-size: cover;
 }
 
+
+
 #nav1{
 	
 	background-color: #FFD600!important;
@@ -362,4 +364,18 @@ p{
 
 .display{
 	opacity: 0;
+}
+
+
+.la-plus{
+	color: #000;
+	font-weight: bold;
+}
+.la-minus{
+	color: #000;
+	font-weight: bold;
+}
+
+#form1{
+	width:80px;
 }
